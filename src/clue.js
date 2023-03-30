@@ -142,16 +142,14 @@ function pickMystery() {
 
     let mystery = pickMystery();
 
+    console.log (mystery)
+
 // ITERATION 3
 
-function revealMystery() {
+function revealMystery(mystery) {
 
-    let solution = ''
-
-    return solution;
+    return  `${mystery.suspect.firstName} ${mystery.suspect.lastName} killed Mr. Boddy using the ${mystery.weapon.name} in the ${mystery.room.name}!` ;
 
 }
 
-
-
-//${mystery.suspect.firstName} ${mystery.suspect.lastName} killed Mr. Boddy using the ${weapon.name} ${mystery.room.name}!`;
+//${mystery.suspect.firstName} ${mystery.suspect.lastName} killed Mr. Boddy using the ${weapon.name} in the ${mystery.room.name}!`;
